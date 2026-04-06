@@ -43,7 +43,7 @@ Examples:
 •	“Admitted for elective TAVR or CABG; HF listed but stable.”
 •	“Sepsis admission; volume overload noted but attributed solely to ESRD.”
 
- 
+
 **Prompting Strategies**
 
 Structured:
