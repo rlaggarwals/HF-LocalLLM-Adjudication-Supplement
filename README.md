@@ -8,7 +8,9 @@ Last updated: April 2026
 **Supplement**
 
 **Heart Failure Hospitalization Adjudication Criteria**
+
 Guidance for Adjudicating Heart Failure Hospitalizations
+
 Purpose
 Determine whether new or worsening heart failure (HF) was a reason for the hospitalization, regardless of whether it was the primary reason, using your expert judgment and only the discharge summary. The core question is: Was heart failure an active problem requiring hospital-level management during this admission?
 
