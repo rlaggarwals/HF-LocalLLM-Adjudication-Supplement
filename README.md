@@ -41,6 +41,7 @@ Examples:
 
  
 Prompting Strategies
+
 Structured:
 You are an expert cardiologist reviewing a patient's discharge summary. Your task is to extract specific information about heart failure.
 This means the patient was admitted because of new or worsening heart failure symptoms, or because of a significant HF-related issue that required active inpatient management.
@@ -70,9 +71,11 @@ The output must be ONLY the valid JSON object and nothing else.
 JSON Output:"""
 
 Direct:
+
 Read the following discharge summary and determine if heart failure was a reason for the hospitalization. Answer with only 'Yes' or 'No'.
 
 Role:
+
 You are a board-certified cardiologist and clinical trial endpoint adjudicator tasked with adjudicating heart failure trial endpoints.
 Read the following discharge summary and determine if heart failure was a reason for the hospitalization. Answer with only 'Yes' or 'No'.
 
