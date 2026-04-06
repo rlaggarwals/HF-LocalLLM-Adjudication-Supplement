@@ -1,8 +1,8 @@
 **Supplementary Methods for:**
+
 "Performance of Local Large Language Models for Adjudicating Heart Failure Hospitalizations"
 
 This repository contains adjudication criteria and prompting strategies used in the study.
-
 Last updated: April 2026
 
 **Supplement**
@@ -39,10 +39,11 @@ Examples:
 •	“Admitted for elective TAVR or CABG; HF listed but stable.”
 •	“Sepsis admission; volume overload noted but attributed solely to ESRD.”
 
- 
 **Prompting Strategies**
 
+
 **Structured:**
+
 You are an expert cardiologist reviewing a patient's discharge summary. Your task is to extract specific information about heart failure.
 This means the patient was admitted because of new or worsening heart failure symptoms, or because of a significant HF-related issue that required active inpatient management.
 To classify the case as “HF Hospitalization: Yes”, there should be clear evidence of all the following:
