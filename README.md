@@ -1,13 +1,13 @@
-Supplementary Methods for:
+**Supplementary Methods for:**
 "Performance of Local Large Language Models for Adjudicating Heart Failure Hospitalizations"
 
 This repository contains adjudication criteria and prompting strategies used in the study.
 
 Last updated: April 2026
 
-Supplement
+**Supplement**
 
-Heart Failure Hospitalization Adjudication Criteria
+**Heart Failure Hospitalization Adjudication Criteria**
 Guidance for Adjudicating Heart Failure Hospitalizations
 Purpose
 Determine whether new or worsening heart failure (HF) was a reason for the hospitalization, regardless of whether it was the primary reason, using your expert judgment and only the discharge summary. The core question is: Was heart failure an active problem requiring hospital-level management during this admission?
@@ -40,9 +40,9 @@ Examples:
 •	“Sepsis admission; volume overload noted but attributed solely to ESRD.”
 
  
-Prompting Strategies
+**Prompting Strategies**
 
-Structured:
+**Structured:**
 You are an expert cardiologist reviewing a patient's discharge summary. Your task is to extract specific information about heart failure.
 This means the patient was admitted because of new or worsening heart failure symptoms, or because of a significant HF-related issue that required active inpatient management.
 To classify the case as “HF Hospitalization: Yes”, there should be clear evidence of all the following:
@@ -70,11 +70,11 @@ Your output MUST be a single, valid JSON object with the following keys:
 The output must be ONLY the valid JSON object and nothing else.
 JSON Output:"""
 
-Direct:
+**Direct:**
 
 Read the following discharge summary and determine if heart failure was a reason for the hospitalization. Answer with only 'Yes' or 'No'.
 
-Role:
+**Role:**
 
 You are a board-certified cardiologist and clinical trial endpoint adjudicator tasked with adjudicating heart failure trial endpoints.
 Read the following discharge summary and determine if heart failure was a reason for the hospitalization. Answer with only 'Yes' or 'No'.
