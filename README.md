@@ -1,22 +1,22 @@
 **Supplementary Methods for:**
-<br><br>
+
 
 "Performance of Local Large Language Models for Adjudicating Heart Failure Hospitalizations"
-
+<br><br>
 
 This repository contains adjudication criteria and prompting strategies used in the study.
 Last updated: April 2026
 
 
 
-
+<br><br>
 **Supplement**
 <br><br>
 
 
 
 **Heart Failure Hospitalization Adjudication Criteria**
-
+<br><br>
 
 Guidance for Adjudicating Heart Failure Hospitalizations
 
@@ -24,7 +24,7 @@ Guidance for Adjudicating Heart Failure Hospitalizations
 
 
 **Purpose**
-
+<br><br>
 
 Determine whether new or worsening heart failure (HF) was a reason for the hospitalization, regardless of whether it was the primary reason, using your expert judgment and only the discharge summary. The core question is: Was heart failure an active problem requiring hospital-level management during this admission?
 
@@ -32,47 +32,47 @@ Determine whether new or worsening heart failure (HF) was a reason for the hospi
 
 
 **How to Adjudicate**
-
+<br><br>
 
  Label as “HF Hospitalization: YES” if:
 •	In your judgment, HF was a reason for the admission.
 •	The discharge summary indicates decompensated HF, volume overload, or HF exacerbation requiring hospital-level treatment.
 •	If volume overload, it should be at least partially attributable to heart failure (not solely due to cirrhosis, nephrotic syndrome, or end-stage renal disease without HF contribution).
-
+<br><br>
 
 Common phrases you may see:
 •	“Admitted for acute decompensated heart failure.”
 •	“Presented with worsening dyspnea due to CHF.”
 •	“Volume overload requiring IV diuresis.”
 •	“Acute systolic/diastolic heart failure exacerbation.”
-
+<br><br>
 
 Examples of hospital-level treatment that support labeling as YES:
 •	IV diuretics (e.g., IV furosemide, bumetanide).
 •	Significant escalation from home diuretic regimen.
 •	Inotropic therapy or other interventions for HF exacerbation.
-
+<br><br>
 
 Label as “HF Hospitalization: NO” if:
 •	The patient was admitted for another reason, and HF was not a reason for admission, even if HF is listed on the problem list.
 •	HF was stable or incidental during the hospitalization and did not contribute to the need for admission.
 •	The discharge summary lacks sufficient clarity to determine whether HF was a reason for admission.
 •	The reason for volume overload was cardiac surgery. 
-
+<br><br>
 
 Examples:
 •	“Admitted for elective hip replacement. History of stable HFrEF.”
 •	“Admitted for elective TAVR or CABG; HF listed but stable.”
 •	“Sepsis admission; volume overload noted but attributed solely to ESRD.”
-
+<br><br>
 
 
 
 **Prompting Strategies**
-
+<br><br>
 
 **Structured:**
-
+<br><br>
 
 You are an expert cardiologist reviewing a patient's discharge summary. Your task is to extract specific information about heart failure.
 This means the patient was admitted because of new or worsening heart failure symptoms, or because of a significant HF-related issue that required active inpatient management.
@@ -80,7 +80,7 @@ To classify the case as “HF Hospitalization: Yes”, there should be clear evi
 - Symptoms consistent with HF — such as dyspnea, orthopnea, PND, or peripheral edema at the time of admission, AND
 - A clinical assessment attributing those symptoms to HF (e.g., “admitted for acute decompensated HF” or “CHF exacerbation”), AND
 - Active treatment for HF during hospitalization — such as IV diuretics, inotropes, or escalation of chronic HF medications.
-
+<br><br>
 
 Do NOT classify as “HF Hospitalization: Yes” if:
 - HF is only mentioned in the past medical history,
@@ -88,7 +88,7 @@ Do NOT classify as “HF Hospitalization: Yes” if:
 - The patient was admitted for another reason (e.g., infection, cirrhosis, renal failure) and volume overload is likely from non-cardiac causes,
 - There is no indication of new or worsening HF, or no specific HF-directed therapy was given,
 - Patient had post cardiac surgery volume overload but was not admitted specifically for heart failure. 
-
+<br><br>
 
 Use “HF Hospitalization: Yes” only when:
 The discharge summary provides enough evidence that HF was an active reason for the hospitalization and required management.
@@ -99,16 +99,16 @@ Your output MUST be a single, valid JSON object with the following keys:
 --- DISCHARGE SUMMARY ---
 {discharge_summary}
 --- END SUMMARY ---
-
+<br><br>
 
 The output must be ONLY the valid JSON object and nothing else.
 JSON Output:"""
-
+<br><br>
 
 
 
 **Direct:**
-
+<br><br>
 
 Read the following discharge summary and determine if heart failure was a reason for the hospitalization. Answer with only 'Yes' or 'No'.
 
@@ -116,7 +116,7 @@ Read the following discharge summary and determine if heart failure was a reason
 
 
 **Role:**
-
+<br><br>
 
 You are a board-certified cardiologist and clinical trial endpoint adjudicator tasked with adjudicating heart failure trial endpoints.
 Read the following discharge summary and determine if heart failure was a reason for the hospitalization. Answer with only 'Yes' or 'No'.
