@@ -15,11 +15,13 @@ Last updated: April 2026
 
 Guidance for Adjudicating Heart Failure Hospitalizations
 
-Purpose
+
+**Purpose**
 
 Determine whether new or worsening heart failure (HF) was a reason for the hospitalization, regardless of whether it was the primary reason, using your expert judgment and only the discharge summary. The core question is: Was heart failure an active problem requiring hospital-level management during this admission?
 
-How to Adjudicate
+
+**How to Adjudicate**
 
  Label as “HF Hospitalization: YES” if:
 •	In your judgment, HF was a reason for the admission.
@@ -51,7 +53,7 @@ Examples:
 
 **Prompting Strategies**
 
-Structured:
+**Structured:**
 
 You are an expert cardiologist reviewing a patient's discharge summary. Your task is to extract specific information about heart failure.
 This means the patient was admitted because of new or worsening heart failure symptoms, or because of a significant HF-related issue that required active inpatient management.
@@ -80,11 +82,13 @@ Your output MUST be a single, valid JSON object with the following keys:
 The output must be ONLY the valid JSON object and nothing else.
 JSON Output:"""
 
-Direct:
+
+**Direct:**
 
 Read the following discharge summary and determine if heart failure was a reason for the hospitalization. Answer with only 'Yes' or 'No'.
 
-Role:
+
+**Role:**
 
 You are a board-certified cardiologist and clinical trial endpoint adjudicator tasked with adjudicating heart failure trial endpoints.
 Read the following discharge summary and determine if heart failure was a reason for the hospitalization. Answer with only 'Yes' or 'No'.
