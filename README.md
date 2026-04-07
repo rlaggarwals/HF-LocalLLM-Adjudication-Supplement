@@ -2,7 +2,6 @@
 
 
 "Performance of Local Large Language Models for Adjudicating Heart Failure Hospitalizations"
-<br><br>
 
 This repository contains adjudication criteria and prompting strategies used in the study.
 Last updated: April 2026
@@ -16,23 +15,21 @@ Last updated: April 2026
 
 
 **Heart Failure Hospitalization Adjudication Criteria**
-<br><br>
 
 Guidance for Adjudicating Heart Failure Hospitalizations
 
 
 
-
-**Purpose**
 <br><br>
+**Purpose**
 
 Determine whether new or worsening heart failure (HF) was a reason for the hospitalization, regardless of whether it was the primary reason, using your expert judgment and only the discharge summary. The core question is: Was heart failure an active problem requiring hospital-level management during this admission?
 
 
 
-
-**How to Adjudicate**
 <br><br>
+**How to Adjudicate**
+
 
  Label as “HF Hospitalization: YES” if:
 •	In your judgment, HF was a reason for the admission.
