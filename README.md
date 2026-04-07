@@ -20,14 +20,14 @@ Guidance for Adjudicating Heart Failure Hospitalizations
 
 
 
-<br><br>
+
 **Purpose**
 
 Determine whether new or worsening heart failure (HF) was a reason for the hospitalization, regardless of whether it was the primary reason, using your expert judgment and only the discharge summary. The core question is: Was heart failure an active problem requiring hospital-level management during this admission?
 
 
 
-<br><br>
+
 **How to Adjudicate**
 
 
@@ -35,41 +35,41 @@ Determine whether new or worsening heart failure (HF) was a reason for the hospi
 •	In your judgment, HF was a reason for the admission.
 •	The discharge summary indicates decompensated HF, volume overload, or HF exacerbation requiring hospital-level treatment.
 •	If volume overload, it should be at least partially attributable to heart failure (not solely due to cirrhosis, nephrotic syndrome, or end-stage renal disease without HF contribution).
-<br><br>
+
 
 Common phrases you may see:
 •	“Admitted for acute decompensated heart failure.”
 •	“Presented with worsening dyspnea due to CHF.”
 •	“Volume overload requiring IV diuresis.”
 •	“Acute systolic/diastolic heart failure exacerbation.”
-<br><br>
+
 
 Examples of hospital-level treatment that support labeling as YES:
 •	IV diuretics (e.g., IV furosemide, bumetanide).
 •	Significant escalation from home diuretic regimen.
 •	Inotropic therapy or other interventions for HF exacerbation.
-<br><br>
+
 
 Label as “HF Hospitalization: NO” if:
 •	The patient was admitted for another reason, and HF was not a reason for admission, even if HF is listed on the problem list.
 •	HF was stable or incidental during the hospitalization and did not contribute to the need for admission.
 •	The discharge summary lacks sufficient clarity to determine whether HF was a reason for admission.
 •	The reason for volume overload was cardiac surgery. 
-<br><br>
+
 
 Examples:
 •	“Admitted for elective hip replacement. History of stable HFrEF.”
 •	“Admitted for elective TAVR or CABG; HF listed but stable.”
 •	“Sepsis admission; volume overload noted but attributed solely to ESRD.”
+
+
+
 <br><br>
-
-
-
 **Prompting Strategies**
 <br><br>
 
 **Structured:**
-<br><br>
+
 
 You are an expert cardiologist reviewing a patient's discharge summary. Your task is to extract specific information about heart failure.
 This means the patient was admitted because of new or worsening heart failure symptoms, or because of a significant HF-related issue that required active inpatient management.
@@ -105,7 +105,7 @@ JSON Output:"""
 
 
 **Direct:**
-<br><br>
+
 
 Read the following discharge summary and determine if heart failure was a reason for the hospitalization. Answer with only 'Yes' or 'No'.
 
@@ -113,7 +113,7 @@ Read the following discharge summary and determine if heart failure was a reason
 
 
 **Role:**
-<br><br>
+
 
 You are a board-certified cardiologist and clinical trial endpoint adjudicator tasked with adjudicating heart failure trial endpoints.
 Read the following discharge summary and determine if heart failure was a reason for the hospitalization. Answer with only 'Yes' or 'No'.
