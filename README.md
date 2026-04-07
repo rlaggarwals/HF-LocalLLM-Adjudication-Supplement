@@ -13,7 +13,7 @@ Last updated: April 2026
 
 
 
-
+<br><br>
 **Heart Failure Hospitalization Adjudication Criteria**
 
 Guidance for Adjudicating Heart Failure Hospitalizations
