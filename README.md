@@ -8,10 +8,9 @@ This repository contains adjudication criteria and prompting strategies used in 
 Last updated: April 2026
 
 
----------------------------------------
 
 
-**Supplement**
+##**Supplement**
 
 
 
