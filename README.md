@@ -101,7 +101,7 @@ JSON Output:"""
 
 
 
-
+<br><br>
 **Direct:**
 
 
@@ -109,7 +109,7 @@ Read the following discharge summary and determine if heart failure was a reason
 
 
 
-
+<br><br>
 **Role:**
 
 
