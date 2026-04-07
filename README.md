@@ -18,10 +18,12 @@ Purpose
 Determine whether new or worsening heart failure (HF) was a reason for the hospitalization, regardless of whether it was the primary reason, using your expert judgment and only the discharge summary. The core question is: Was heart failure an active problem requiring hospital-level management during this admission?
 
 How to Adjudicate
+
  Label as “HF Hospitalization: YES” if:
 •	In your judgment, HF was a reason for the admission.
 •	The discharge summary indicates decompensated HF, volume overload, or HF exacerbation requiring hospital-level treatment.
 •	If volume overload, it should be at least partially attributable to heart failure (not solely due to cirrhosis, nephrotic syndrome, or end-stage renal disease without HF contribution).
+
 Common phrases you may see:
 •	“Admitted for acute decompensated heart failure.”
 •	“Presented with worsening dyspnea due to CHF.”
